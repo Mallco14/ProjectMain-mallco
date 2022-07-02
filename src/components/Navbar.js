@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav class="navbar navbar-expand-lg fixed-top bg-opacity-6 navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg fixed-top bg-opacity-5 navbar-light bg-light">
         <div class="container p-3">
           <a class="navbar-brand h1 logo-style" href="#">ContigoPE</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

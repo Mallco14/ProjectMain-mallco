@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-            <footer class="page-footer bg-dark">
+            <footer class="page-footer bg-dark ">
                 {/* Barra Primera */}
-                <div class="bg-danger">
+                <div class="bg-dark">
                     <div class="container">
                         <div class="row py-4 d-flex align-items-center">
                             <div class="col-md-12 text-center">

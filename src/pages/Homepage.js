@@ -64,14 +64,14 @@ const Homepage = () => {
                                         <Card.Text><strong>{i.precio}</strong></Card.Text>
                                         {/* BOTON DE DIEGO */}
 
-                                        <button class="btn btn-danger" onClick={handleClick}>
-                                            <button class="btn btn-danger" onClick={() => addCarrito(i.id)} > 
+                                        <button class="btn btn-dark" onClick={handleClick}>
+                                            <button class="btn btn-dark" onClick={() => addCarrito(i.id)} > 
                                                     Agregar al carrito  <i class="bi bi-cart-plus"></i>
                                      
                                             </button>
                                         </button>
                                         <div className='p-2'>
-                                            <Link to={'/detallesProducto/'+i.id}><button  class="btn btn-primary">Ver detalles</button></Link>
+                                            <Link to={'/detallesProducto/'+i.id}><button  class="btn btn-day">Ver detalles</button></Link>
                                         </div>
                                         
                                         {/* --------------------------------------- ------------------------------------------------------------------------------*/}
